@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Production build files
+dist/
+build/
+
+# Environment variables and secret keys
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Vercel files
+.vercel
+
+# Local storage / temporary files
+*.local
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Coverage files
+coverage/
+
+# TypeScript build files
+*.tsbuildinfo

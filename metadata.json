@@ -1,0 +1,8 @@
+{
+  "name": "EnviroFHIR-Guard",
+  "description": "Automated Trust-Scored Interoperability Engine for Citizen Science & Environmental Informatics. Establishes a verifiable trust boundary from untrusted environmental telemetry to structured HL7 FHIR interoperability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

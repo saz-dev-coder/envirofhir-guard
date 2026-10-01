@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Custom technical scrollbar with dark purple styling */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #090614;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #3b1d5a;
+    border-radius: 3px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #6d28d9;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  @keyframes spinSlow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-spin-slow {
+    animation: spinSlow 8s linear infinite;
+  }
+}
